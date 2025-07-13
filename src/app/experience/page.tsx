@@ -131,7 +131,7 @@ export default function Experience() {
               <div className="relative z-10">
                 <div className="w-16 h-16 rounded-xl overflow-hidden border-4 border-teal-500">
                   <Image
-                    src="https://ext.same-assets.com/125383012/3922533948.jpeg"
+                    src="/images/Procesaur-logo.png"
                     alt="Procesaur.com"
                     width={64}
                     height={64}
@@ -210,7 +210,7 @@ export default function Experience() {
               <div className="relative z-10">
                 <div className="w-16 h-16 rounded-xl overflow-hidden border-4 border-purple-500">
                   <Image
-                    src="https://ext.same-assets.com/125383012/4189766029.webp"
+                    src="/images/HNG_logo.webp"
                     alt="HNG"
                     width={64}
                     height={64}

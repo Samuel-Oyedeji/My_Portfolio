@@ -62,7 +62,7 @@ export default function Home() {
 
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-16 animate-fade-in-up-delay-3">
-          <Link href="https://x.com/kenil__k" className="hover:opacity-80 transition-opacity p-2">
+          <Link href="https://x.com/samissudo" className="hover:opacity-80 transition-opacity p-2">
             <Image
               src="https://ext.same-assets.com/125383012/3293094908.svg"
               alt="Twitter/X"
@@ -71,7 +71,7 @@ export default function Home() {
               className="filter brightness-0 invert opacity-80 hover:opacity-100 transition-opacity"
             />
           </Link>
-          <Link href="https://www.instagram.com/kenil__k" className="hover:opacity-80 transition-opacity p-2">
+          <Link href="https://www.instagram.com" className="hover:opacity-80 transition-opacity p-2">
             <Image
               src="https://ext.same-assets.com/125383012/264913390.svg"
               alt="Instagram"
@@ -80,7 +80,7 @@ export default function Home() {
               className="filter brightness-0 invert opacity-80 hover:opacity-100 transition-opacity"
             />
           </Link>
-          <Link href="https://github.com/kenil-kanani" className="hover:opacity-80 transition-opacity p-2">
+          <Link href="https://github.com/Samuel-Oyedeji" className="hover:opacity-80 transition-opacity p-2">
             <Image
               src="https://ext.same-assets.com/125383012/1114742367.svg"
               alt="GitHub"
@@ -89,7 +89,7 @@ export default function Home() {
               className="filter brightness-0 invert opacity-80 hover:opacity-100 transition-opacity"
             />
           </Link>
-          <Link href="https://www.linkedin.com/in/kenill/" className="hover:opacity-80 transition-opacity p-2">
+          <Link href="https://www.linkedin.com/in/samuel-oyedeji004/" className="hover:opacity-80 transition-opacity p-2">
             <Image
               src="https://ext.same-assets.com/125383012/2708752127.svg"
               alt="LinkedIn"

@@ -131,7 +131,7 @@ export default function Experience() {
               <div className="relative z-10">
                 <div className="w-16 h-16 rounded-xl overflow-hidden border-4 border-teal-500">
                   <Image
-                    src="/images/Procesaur-logo.png"
+                    src="/images/Procesaur-logo.webp"
                     alt="Procesaur.com"
                     width={64}
                     height={64}

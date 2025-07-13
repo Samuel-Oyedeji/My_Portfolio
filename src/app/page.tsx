@@ -377,7 +377,7 @@ export default function Home() {
           {/* Procesaur.com */}
           <div className="flex items-start space-x-4 animate-fade-in-up-delay-1">
             <Image
-              src="/images/Procesaur-logo.png"
+              src="/images/Procesaur-logo.webp"
               alt="Procesaur.com"
               width={48}
               height={48}

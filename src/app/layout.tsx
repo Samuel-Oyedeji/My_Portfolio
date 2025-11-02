@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const jetbrainsMono = JetBrains_Mono({ 
+  subsets: ["latin"],
+  variable: "--font-jetbrains-mono",
+});
 
 export const metadata: Metadata = {
-  title: "Oyedeji Samuel - Software engineer, innovator, and full-stack developer",
-  description: "I'm Oyedeji Samuel, a software engineer and entrepreneur. I specialize in building scalable solutions and innovative technologies to solve challenging problems.",
+  title: "samuel@portfolio:~$ - Backend Developer & DevOps Engineer",
+  description: "Backend developer and DevOps engineer specializing in scalable architectures, CI/CD pipelines, and infrastructure automation.",
 };
 
 export default function RootLayout({
@@ -16,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
+      <body className={jetbrainsMono.variable} style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}>
         {children}
       </body>
     </html>

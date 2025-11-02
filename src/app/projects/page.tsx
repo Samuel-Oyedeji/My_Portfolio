@@ -51,7 +51,7 @@ export default function Projects() {
                     </div>
                     <div>
                       <span className="terminal-text-amber font-bold text-3xl block">RealSocial</span>
-                      <span className="terminal-text-amber text-sm block mt-1">// An app where land owners and househunters meet</span>
+                      <span className="terminal-text-amber text-sm block mt-1">{'// An app where land owners and househunters meet'}</span>
                     </div>
                   </div>
                 </CommandPrompt>
@@ -135,7 +135,7 @@ export default function Projects() {
                     </div>
                     <div>
                       <span className="terminal-text-amber font-bold text-3xl block">AnyDB</span>
-                      <span className="terminal-text-amber text-sm block mt-1">// A realtime database management app</span>
+                      <span className="terminal-text-amber text-sm block mt-1">{'// A realtime database management app'}</span>
                     </div>
                   </div>
                 </CommandPrompt>
@@ -218,7 +218,7 @@ export default function Projects() {
                     </div>
                     <div>
                       <span className="terminal-text-amber font-bold text-3xl block">Social Manager</span>
-                      <span className="terminal-text-amber text-sm block mt-1">// Social media manager</span>
+                      <span className="terminal-text-amber text-sm block mt-1">{'// Social media manager'}</span>
                     </div>
                   </div>
                 </CommandPrompt>

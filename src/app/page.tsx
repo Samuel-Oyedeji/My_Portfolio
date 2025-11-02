@@ -127,7 +127,7 @@ export default function Home() {
               <div>
                 <CommandPrompt>
                   <span className="terminal-text-amber font-bold text-2xl">RealSocial</span>
-                  <span className="terminal-text text-sm block mt-2 text-[#ffb000]">// An app where land owners and househunters meet</span>
+                  <span className="terminal-text text-sm block mt-2 text-[#ffb000]">{'// An app where land owners and househunters meet'}</span>
                 </CommandPrompt>
 
                 <div className="mt-6 terminal-text text-sm leading-relaxed">
@@ -195,7 +195,7 @@ export default function Home() {
               <div>
                 <CommandPrompt>
                   <span className="terminal-text-amber font-bold text-2xl">AnyDB</span>
-                  <span className="terminal-text text-sm block mt-2 text-[#ffb000]">// A realtime database management app</span>
+                  <span className="terminal-text text-sm block mt-2 text-[#ffb000]">{'// A realtime database management app'}</span>
                 </CommandPrompt>
 
                 <div className="mt-6 terminal-text text-sm leading-relaxed">
@@ -264,7 +264,7 @@ export default function Home() {
               <div>
                 <CommandPrompt>
                   <span className="terminal-text-amber font-bold text-2xl">Social Manager</span>
-                  <span className="terminal-text text-sm block mt-2 text-[#ffb000]">// Social media manager</span>
+                  <span className="terminal-text text-sm block mt-2 text-[#ffb000]">{'// Social media manager'}</span>
                 </CommandPrompt>
 
                 <div className="mt-6 terminal-text text-sm leading-relaxed">

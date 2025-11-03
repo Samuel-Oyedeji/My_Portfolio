@@ -1,0 +1,99 @@
+# Terminal Portfolio: A Developer's Command Line Interface
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white)
+
+An interactive personal portfolio designed to mimic a terminal interface, built with Next.js and TypeScript. This project showcases my skills and experience as a Backend & DevOps Engineer through a unique, command-line-inspired user experience.
+
+<br>
+
+![Portfolio Screenshot](./public/images/screenshot.png)
+*Note: A live version is available for the full interactive experience.*
+
+### ✨ [View Live Demo](https://samuel-oyedeji.vercel.app/)
+
+## Key Features
+
+-   **🖥️ Terminal-Inspired UI**: A unique, immersive interface that simulates a real command-line environment.
+-   **🚀 Interactive Commands**: Sections like `whoami` and `ls -la projects/` create an engaging way to explore my profile.
+-   **💡 Animated Effects**: Smooth fade-in animations and a dynamic typing effect enhance the user experience.
+-   **📱 Fully Responsive**: The layout is optimized for a seamless experience on desktops, tablets, and mobile devices.
+-   **📄 Dedicated Sections**: Clear and organized pages for Home, About, Projects, and Experience.
+-   **⚙️ Modern Tech Stack**: Built with the latest web technologies for optimal performance and scalability.
+
+## Technologies Used
+
+This portfolio was built using a modern and robust tech stack to ensure a high-quality, performant, and maintainable application.
+
+| Category      | Technology                                                                                                    |
+| :------------ | :------------------------------------------------------------------------------------------------------------ |
+| **Framework** | [Next.js](https://nextjs.org/)                                                                                |
+| **Language**  | [TypeScript](https://www.typescriptlang.org/)                                                                 |
+| **Styling**   | [Tailwind CSS](https://tailwindcss.com/)                                                                      |
+| **Animation** | [Framer Motion](https://www.framer.com/motion/)                                                               |
+| **Linting**   | [ESLint](https://eslint.org/)                                                                                 |
+| **Formatting**| [Biome](https://biomejs.dev/)                                                                                 |
+| **Deployment**| [Vercel](https://vercel.com/)                                                                                 |
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js (version 18.x or later) and npm installed on your machine.
+
+### Installation
+
+1.  **Clone the Repository**
+    Open your terminal and run the following command to clone the project:
+    ```bash
+    git clone https://github.com/Samuel-Oyedeji/My_Portfolio.git
+    ```
+
+2.  **Navigate to Project Directory**
+    ```bash
+    cd My_Portfolio
+    ```
+
+3.  **Install Dependencies**
+    Install all the required packages using npm:
+    ```bash
+    npm install
+    ```
+
+4.  **Run the Development Server**
+    Start the local development server with this command:
+    ```bash
+    npm run dev
+    ```
+
+5.  **View the Application**
+    Open your browser and navigate to `http://localhost:3000` to see the application in action.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1.  🍴 **Fork the Project**
+2.  ⭐ **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3.  💾 **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
+4.  🚀 **Push to the Branch** (`git push origin feature/AmazingFeature`)
+5.  🎉 **Open a Pull Request**
+
+## License
+
+This project is distributed under the MIT License. See `LICENSE` for more information.
+
+## Author
+
+**Oyedeji Samuel** - A passionate Backend Developer and DevOps Engineer focused on building scalable systems and automating infrastructure.
+
+-   **LinkedIn**: [@samuel-oyedeji004](https://www.linkedin.com/in/samuel-oyedeji004/)
+-   **X (Twitter)**: [@samissudo](https://x.com/samissudo)
+
+[![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)

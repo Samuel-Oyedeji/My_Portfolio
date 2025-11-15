@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import ClientBody from "./ClientBody";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const jetbrainsMono = JetBrains_Mono({ 
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
           <ClientBody>
             {children}
             <Analytics />
+            <SpeedInsights />
           </ClientBody>
         </ThemeProvider>
       </body>

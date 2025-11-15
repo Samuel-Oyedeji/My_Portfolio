@@ -24,14 +24,14 @@ export default function TerminalNavigation() {
 
   if (theme === "neubrutalism") {
     return (
-      <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50">
-        <div className="neubrutalism-nav flex items-center space-x-2">
+      <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-[calc(100vw-1rem)] md:max-w-none md:w-auto px-2 md:px-0">
+        <div className="bg-white border-2 md:border-4 border-black shadow-[3px_3px_0_black] md:shadow-[6px_6px_0_black] rounded-lg md:rounded-xl p-1 md:p-2 flex items-center justify-center gap-1 md:gap-2">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`neubrutalism-nav-item ${
-                isActive(item.href) ? "neubrutalism-nav-item-active" : ""
+              className={`font-bold text-[10px] sm:text-xs md:text-base px-2 py-1.5 sm:px-3 sm:py-2 md:px-6 md:py-3 border-2 md:border-3 border-black rounded md:rounded-lg transition-all ${
+                isActive(item.href) ? "" : "hover:translate-x-[1px] hover:translate-y-[1px]"
               }`}
               style={{
                 backgroundColor: isActive(item.href) ? item.color : "white",
@@ -47,14 +47,14 @@ export default function TerminalNavigation() {
   }
 
   return (
-    <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="bg-black/80 backdrop-blur-md rounded-lg px-6 py-3 border border-[#065f46]">
-        <div className="flex items-center space-x-8">
+    <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-[calc(100vw-2rem)] md:w-auto px-4 md:px-0">
+      <div className="bg-black/80 backdrop-blur-md rounded-lg px-3 py-2 md:px-6 md:py-3 border border-[#065f46]">
+        <div className="flex items-center justify-center space-x-3 md:space-x-8">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`text-sm font-medium transition-colors ${
+              className={`text-xs md:text-sm font-medium transition-colors ${
                 isActive(item.href)
                   ? "terminal-text"
                   : "text-[#065f46] hover:text-[#00ff41]"

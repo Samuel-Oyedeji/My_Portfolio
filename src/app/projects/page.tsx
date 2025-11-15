@@ -324,8 +324,8 @@ export default function Projects() {
     <main className="min-h-screen bg-black text-[#00ff41]">
       <TerminalNavigation />
 
-      {/* Profile Avatar - Top Left */}
-      <div className="fixed top-8 left-8 z-40">
+      {/* Profile Avatar - Top Left (hidden on mobile to prevent overlap) */}
+      <div className="hidden md:block fixed top-8 left-8 z-40">
         <Link href="/" className="hover:opacity-80 transition-opacity">
           <div className="terminal-window rounded-full p-1 border-2 border-[#065f46]">
             <Image

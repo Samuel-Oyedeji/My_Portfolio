@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/contexts/ThemeContext";
+import ClientBody from "./ClientBody";
+import { Analytics } from "@vercel/analytics/next";
 
 const jetbrainsMono = JetBrains_Mono({ 
   subsets: ["latin"],
@@ -20,7 +23,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={jetbrainsMono.variable} style={{ fontFamily: 'var(--font-jetbrains-mono), monospace' }}>
-        {children}
+        <ThemeProvider>
+          <ClientBody>
+            {children}
+            <Analytics />
+          </ClientBody>
+        </ThemeProvider>
       </body>
     </html>
   );

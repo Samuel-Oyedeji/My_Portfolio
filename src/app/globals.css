@@ -198,3 +198,382 @@
     width: 100%;
   }
 }
+
+/* ============================================
+   NEUBRUTALISM THEME STYLES
+   ============================================ */
+
+.neubrutalism {
+  /* Color Palette */
+  --nb-primary: #0066FF;
+  --nb-secondary: #FF006E;
+  --nb-accent: #FFBE0B;
+  --nb-success: #8AC926;
+  --nb-background: #FFFCF2;
+  --nb-text: #1A1A1A;
+  --nb-border: #000000;
+  --nb-purple: #9D4EDD;
+  --nb-cyan: #06B6D4;
+}
+
+/* Base Neubrutalism Styles */
+.neubrutalism-bg {
+  background-color: #FFFCF2;
+  color: #1A1A1A;
+}
+
+.neubrutalism-card {
+  background: white;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 black;
+  transition: all 0.2s ease;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.neubrutalism-card:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 black;
+}
+
+.neubrutalism-card-blue {
+  background: #E0F2FE;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 #0066FF;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-card-blue:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 #0066FF;
+}
+
+.neubrutalism-card-pink {
+  background: #FCE7F3;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 #FF006E;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-card-pink:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 #FF006E;
+}
+
+.neubrutalism-card-yellow {
+  background: #FEF9C3;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 #FFBE0B;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-card-yellow:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 #FFBE0B;
+}
+
+.neubrutalism-card-green {
+  background: #DCFCE7;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 #8AC926;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-card-green:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 #8AC926;
+}
+
+.neubrutalism-card-purple {
+  background: #F3E8FF;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 #9D4EDD;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-card-purple:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 #9D4EDD;
+}
+
+.neubrutalism-card-cyan {
+  background: #CFFAFE;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 #06B6D4;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-card-cyan:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 #06B6D4;
+}
+
+.neubrutalism-button {
+  font-weight: 700;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 black;
+  transition: all 0.2s ease;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.neubrutalism-button:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 black;
+}
+
+.neubrutalism-button-primary {
+  background: #0066FF;
+  color: white;
+}
+
+.neubrutalism-button-secondary {
+  background: #FF006E;
+  color: white;
+}
+
+.neubrutalism-button-accent {
+  background: #FFBE0B;
+  color: black;
+}
+
+.neubrutalism-button-success {
+  background: #8AC926;
+  color: black;
+}
+
+.neubrutalism-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 3px solid black;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-badge:hover {
+  transform: scale(1.05);
+}
+
+.neubrutalism-badge-blue {
+  background: #0066FF;
+  color: white;
+}
+
+.neubrutalism-badge-pink {
+  background: #FF006E;
+  color: white;
+}
+
+.neubrutalism-badge-yellow {
+  background: #FFBE0B;
+  color: black;
+}
+
+.neubrutalism-badge-green {
+  background: #8AC926;
+  color: black;
+}
+
+.neubrutalism-badge-purple {
+  background: #9D4EDD;
+  color: white;
+}
+
+.neubrutalism-badge-cyan {
+  background: #06B6D4;
+  color: white;
+}
+
+.neubrutalism-heading {
+  font-weight: 900;
+  color: #1A1A1A;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.neubrutalism-avatar {
+  border: 5px solid black;
+  box-shadow: 8px 8px 0 black;
+  transition: all 0.3s ease;
+}
+
+.neubrutalism-avatar:hover {
+  transform: rotate(-5deg) translate(3px, 3px);
+  box-shadow: 5px 5px 0 black;
+}
+
+.neubrutalism-link {
+  color: #0066FF;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-link:hover {
+  color: #FF006E;
+  text-decoration-color: #FF006E;
+}
+
+.neubrutalism-section {
+  padding: 4rem 2rem;
+}
+
+.neubrutalism-section-blue {
+  background: linear-gradient(135deg, #E0F2FE 0%, #DBEAFE 100%);
+}
+
+.neubrutalism-section-pink {
+  background: linear-gradient(135deg, #FCE7F3 0%, #FDF2F8 100%);
+}
+
+.neubrutalism-section-yellow {
+  background: linear-gradient(135deg, #FEF9C3 0%, #FEF3C7 100%);
+}
+
+.neubrutalism-section-green {
+  background: linear-gradient(135deg, #DCFCE7 0%, #F0FDF4 100%);
+}
+
+.neubrutalism-nav {
+  background: white;
+  border: 4px solid black;
+  box-shadow: 6px 6px 0 black;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
+.neubrutalism-nav-item {
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border: 3px solid black;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.neubrutalism-nav-item:hover {
+  transform: translate(2px, 2px);
+}
+
+.neubrutalism-nav-item-active {
+  background: #0066FF;
+  color: white;
+}
+
+.neubrutalism-input {
+  border: 4px solid black;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.neubrutalism-input:focus {
+  outline: none;
+  box-shadow: 6px 6px 0 #0066FF;
+  transform: translate(-3px, -3px);
+}
+
+.neubrutalism-text {
+  color: #1A1A1A;
+  line-height: 1.8;
+}
+
+.neubrutalism-text-bold {
+  font-weight: 800;
+  color: #000000;
+}
+
+/* Animations for Neubrutalism */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.neubrutalism-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+.neubrutalism-wiggle:hover {
+  animation: wiggle 0.5s ease-in-out;
+}
+
+/* 3D Theme Transition Animation THE ANIMATION IS DISABLED*/
+/* @keyframes explodeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) rotate(-180deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(10deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes colorBurst {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 102, 255, 0.7),
+                0 0 0 0 rgba(255, 0, 110, 0.7),
+                0 0 0 0 rgba(255, 190, 11, 0.7),
+                0 0 0 0 rgba(138, 201, 38, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 0 100px rgba(0, 102, 255, 0),
+                0 0 0 150px rgba(255, 0, 110, 0),
+                0 0 0 200px rgba(255, 190, 11, 0),
+                0 0 0 250px rgba(138, 201, 38, 0);
+  }
+}
+
+.neubrutalism-transition-wrapper {
+  animation: explodeIn 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.neubrutalism-transition-burst {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: colorBurst 0.8s ease-out;
+  pointer-events: none;
+  z-index: 9999;
+} */

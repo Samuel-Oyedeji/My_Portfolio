@@ -39,7 +39,7 @@ export default function Home() {
               <div className="flex flex-col items-center mb-8">
                 <div className="neubrutalism-avatar rounded-full mb-6 overflow-hidden bg-white">
                   <Image
-                    src="/images/pic1.png"
+                    src="/images/corprate.jpg"
                     alt="Oyedeji Samuel"
                     width={120}
                     height={120}
@@ -423,7 +423,7 @@ export default function Home() {
         <Link href="/" className="hover:opacity-80 transition-opacity">
           <div className="terminal-window rounded-full p-1 border-2 border-[#065f46]">
             <Image
-              src="/images/pic1.png"
+              src="/images/corprate.jpg"
               alt="samuel@portfolio"
               width={48}
               height={48}
@@ -439,7 +439,7 @@ export default function Home() {
           <div className="flex flex-col items-center mb-8">
             <div className="terminal-window rounded-full p-2 border-2 border-[#065f46] mb-6">
               <Image
-                src="/images/pic1.png"
+                src="/images/corprate.jpg"
                 alt="Oyedeji Samuel"
                 width={120}
                 height={120}

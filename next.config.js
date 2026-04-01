@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // `output: 'export'` is incompatible with App Router API routes (e.g. webhooks).
   distDir: 'out',
   allowedDevOrigins: ["*.preview.same-app.com"],
   images: {

@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // `output: 'export'` is incompatible with App Router API routes (e.g. webhooks).
-  distDir: 'out',
+  // Do not set distDir to "out" on Vercel — the platform expects the default ".next" output.
   allowedDevOrigins: ["*.preview.same-app.com"],
   images: {
     unoptimized: true,
